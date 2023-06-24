@@ -1,0 +1,987 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mocking-header {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 4px 70px rgba(30, 40, 52, 0.08);
+    background-color: #F1F6FF;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    margin-right: 40px;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.testing {
+    border-bottom: 3px solid red;
+    font-weight: 600 !important;
+
+}
+
+.mobile-icon,
+.mobileIcon {
+    display: none;
+}
+
+.mocking-main-one {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    background: #0D0D0D;
+    margin-top: 10px;
+
+}
+
+.div-one {
+    text-align: left;
+    margin-top: 60px;
+    padding-left: 100px;
+    margin-bottom: 40px;
+}
+
+.div-one h1 {
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.div-one span {
+    color: #F20A0A;
+}
+
+.div-one p {
+    color: #FFFFFF;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.div-one button {
+    border-radius: 6px;
+    padding: 5px 15px;
+    color: #F20A0A;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.div-two {
+    padding-right: 60px;
+    margin-bottom: 40px;
+}
+
+.div-two img {
+    width: 100%;
+}
+
+.mocking-main-two {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    margin-top: 100px;
+}
+
+.div-three {
+    margin-top: 40px;
+    padding-right: 35px;
+}
+
+.div-three h3,
+.div-four h3 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.div-three p,
+.div-four p {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.div-three button,
+.div-four button {
+    background-color: #222222;
+    color: #FFFFFF;
+    border: none;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+.main-one {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.main-one img {
+    padding: 10px;
+    width: initial;
+}
+
+.main-two img {
+    width: initial;
+}
+
+
+.div-four {
+    margin-top: 40px;
+    padding-left: 35px;
+}
+
+.mocking-main-three {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+    background-color: #222222;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.mocking-main-three p {
+    color: #FFFFFF;
+    font-weight: 500;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mocking-main-four {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.mocking-main-four img {
+    width: initial;
+}
+
+.mocking-main-five {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.mocking-main-five p {
+    color: #222222;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.mocking-main-five span {
+    color: #F20A0A;
+}
+
+.mocking-footer {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #222222;
+    display: flex;
+    margin-top: 40px;
+}
+
+.footer-div {
+    margin-top: 50px;
+}
+
+.footer-div h2 {
+    color: #FFFFFF;
+    font-style: italic;
+    font: Italic;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-div p {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-one {
+    display: flex;
+    margin-top: 50px;
+}
+
+.footer-navbar {
+    padding-left: 50px;
+}
+
+.footer-navbar ul li {
+    list-style-type: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.footer-navbar h4 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.mocking-main-six {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.mocking-main-six p {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.mocking-main-six button {
+    border-radius: 10px;
+    background-color: #E5E5E5;
+    color: #464444;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 15px;
+    border: 1px solid grey;
+    cursor: pointer;
+    display: flex;
+}
+
+.mocking-main-six button svg {
+    padding-left: 20px;
+
+}
+
+.mocking-main-seven {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.main-four h4 {
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #000000;
+}
+
+.main-four img {
+    width: initial;
+}
+
+.mocking-main-eight {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.mocking-main-eight img {
+    width: 100%;
+}
+
+.mocking-main-eight p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.mocking-main-nine {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 50px;
+}
+
+.main-five {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid red;
+}
+
+.main-five h4 {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.main-five img {
+    width: initial;
+    padding-bottom: 5px;
+}
+
+.main-six {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-left: 50px;
+}
+
+.main-six img {
+    width: 80%;
+}
+
+.sub-div p {
+    background-color: #222222;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80%;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.mocking-main-ten {
+    background-image: url("IMAGES/image 17.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    background-position: bottom;
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.book {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 30px;
+    width: 100%;
+
+}
+
+.form-div {
+    padding-top: 50px;
+    width: 50%;
+
+}
+
+.form-div h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form {
+    box-shadow: 0px 4px 50px rgba(30, 40, 52, 0.08);
+    border-radius: 10px;
+    padding: 15px;
+    width: 60%;
+}
+
+
+.form h3 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid grey;
+}
+
+.sample {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form button {
+    margin-top: 20px;
+    background-color: #F20A0A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+
+.mocking-main-eleven {
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+
+.std {
+    background-image: url("IMAGES/Rectangle 449.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    background-position: bottom;
+    width: 50%;
+    height: inherit;
+}
+
+.div-par {
+    text-align: center;
+    background-color: #222222;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: fit-content;
+}
+
+@media (max-width: 500px) {
+    .mocking-header {
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .navbar ul {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .mobile-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .mobileIcon {
+        display: none;
+    }
+
+    .navbar ul li {
+        list-style-type: none;
+        color: #FFFFFF;
+        font-size: 12px;
+        font-weight: 400;
+        cursor: pointer;
+        padding-bottom: 20px;
+    }
+
+
+    .mobileIcon:checked~.navbar {
+        display: grid;
+        position: absolute;
+        padding: 10px;
+        background-color: #000000;
+        width: 90%;
+        top: 90px;
+    }
+
+    .testing {
+        border-bottom: none;
+        font-weight: 800 !important;
+    }
+
+    .mocking-main-one {
+        padding-left: 10px;
+        padding-right: 10px;
+        display: grid;
+        background: #000000;
+        margin-top: 10px;
+    }
+
+    .div-one {
+        text-align: center;
+        margin-top: 30px;
+        padding-left: 10px;
+    }
+
+    .div-one h1 {
+        color: #FFFFFF;
+        font-size: 35px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .div-one span {
+        color: #F20A0A;
+    }
+
+    .div-one p {
+        color: #FFFFFF;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .div-one button {
+        border-radius: 6px;
+        padding: 5px 10px;
+        color: #F20A0A;
+        font-weight: 600;
+        font-size: 20px;
+        background-color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+    }
+
+    .div-two {
+        margin-bottom: 20px;
+    }
+
+    .div-two img {
+        width: 100%;
+        padding-left: 30px;
+    }
+
+    .mocking-main-two {
+        padding-left: 10px;
+        padding-right: 10px;
+        display: grid;
+        margin-top: 50px;
+    }
+
+    .div-three {
+        margin-top: 20px;
+        padding-right: 10px;
+        text-align: center;
+        padding-left: 10px;
+    }
+
+    .div-four {
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+
+    .div-three h3,
+    .div-four h3 {
+        color: #000000;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .div-three p,
+    .div-four p {
+        color: #000000;
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
+    .div-three button,
+    .div-four button {
+        background-color: #222222;
+        color: #FFFFFF;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+    }
+
+    .main-one {
+        display: grid;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .main-one img {
+        width: 80%;
+    }
+
+    .main-two img {
+        width: 100%;
+    }
+
+    .mocking-main-three {
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-top: 30px;
+        background-color: #222222;
+        border: none;
+        margin-bottom: 20px;
+    }
+
+    .mocking-main-three p {
+        color: #FFFFFF;
+        font-weight: 400;
+        text-align: center;
+        font-size: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .mocking-main-four {
+        padding-left: 10px;
+        padding-right: 10px;
+        display: grid;
+        margin-top: 30px;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .mocking-main-four img {
+        width: initial;
+        padding: 10px;
+    }
+
+    .mocking-main-five {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .mocking-main-five p {
+        color: #222222;
+        font-size: 10px;
+        font-weight: 500;
+
+    }
+
+    .mocking-footer {
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #222222;
+        display: grid;
+        margin-top: 30px;
+    }
+
+    .footer-div {
+        margin-top: 30px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .footer-div h2 {
+        color: #FFFFFF;
+        font-style: italic;
+        font: Italic;
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-div p {
+        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-one {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .footer-navbar {
+        padding-left: 40px;
+        margin-bottom: 30px;
+    }
+
+    .footer-navbar ul li {
+        list-style-type: none;
+        color: #FFFFFF;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 5px;
+    }
+
+    .footer-navbar h4 {
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .mocking-main-six {
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .mocking-main-six p {
+        font-size: 15px;
+        color: #000000;
+        font-weight: 600;
+    }
+
+    .mocking-main-six button {
+        border-radius: 10px;
+        background-color: #E5E5E5;
+        color: #464444;
+        font-size: 10px;
+        font-weight: 500;
+        padding: 5px 10px;
+        border: 1px solid grey;
+        cursor: pointer;
+        display: flex;
+    }
+
+    .mocking-main-six button svg {
+        padding-left: 20px;
+    }
+
+    .mocking-main-seven {
+        padding-left: 10px;
+        padding-right: 10px;
+        display: grid;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    .main-four h4 {
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 5px;
+        font-size: 15px;
+        color: #000000;
+    }
+
+    .main-four img {
+        width: initial;
+        padding: 15px;
+    }
+
+    .mocking-main-eight {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+
+    .mocking-main-eight img {
+        width: 100%;
+    }
+
+    .mocking-main-eight p {
+        font-weight: 400;
+        font-size: 15px;
+        color: #000000;
+        margin-top: 20px;
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .mocking-main-nine {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 30px;
+    }
+
+    .main-five {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 4px solid red;
+    }
+
+    .main-five h4 {
+        font-size: 20px;
+        color: #000000;
+        font-weight: 600;
+        padding-top: 10px;
+    }
+
+    .main-five img {
+        width: initial;
+        padding-bottom: 5px;
+    }
+
+    .main-six {
+        display: grid;
+        margin-top: 20px;
+        padding: 0;
+        margin-bottom: 5px;
+    }
+
+    .main-six img {
+        width: 100%;
+        padding-top: 15px;
+    }
+
+    .sub-div {
+        margin-bottom: 20px;
+    }
+
+    .sub-div p {
+        background-color: #222222;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .mocking-main-ten {
+        background-image: url("IMAGES/image 17.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        background-position: bottom;
+        width: 100%;
+        height: 200px;
+        margin-top: 50px;
+    }
+
+    .book {
+        text-align: center;
+        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 20px;
+        width: 100%;
+
+    }
+
+    .form-div {
+        padding-top: 50px;
+        width: 95%;
+    }
+
+    .form-div h2 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .form {
+        box-shadow: 0px 4px 50px rgba(30, 40, 52, 0.08);
+        border-radius: 10px;
+        padding: 15px;
+        width: 90%;
+
+    }
+
+
+    .form h3 {
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 15px;
+    }
+
+    .form input {
+        width: 100%;
+        padding: 10px 5px;
+        border-radius: 5px;
+        margin-top: 5px;
+        border: 1px solid grey;
+    }
+
+    .sample {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form button {
+        margin-top: 20px;
+        background-color: #F20A0A;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 10px;
+        padding: 10px 20px;
+        font-weight: 600;
+        font-size: 15px;
+
+    }
+
+    .mocking-main-eleven {
+        padding-left: 10px;
+        height: 600px;
+        position: relative;
+        width: 100%;
+    }
+
+    .std {
+        background-image: url("IMAGES/Rectangle 449.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: none;
+        align-items: end;
+        background-position: top;
+        width: 95%;
+        height: inherit;
+    }
+
+    .div-par {
+        text-align: center;
+        background-color: #222222;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 15px;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: fit-content;
+    }
+
+}
